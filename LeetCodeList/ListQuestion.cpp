@@ -231,6 +231,7 @@ ListNode * Solution::findNode(ListNode *head1, ListNode *head2)
 	return p1;
 }
 
+// main function
 int main()
 {	
 	Solution solution;

@@ -1,0 +1,6 @@
+*.sdf
+*.suo
+*.vcxproj.user
+ipch
+*.opensdf
+!.gitignore

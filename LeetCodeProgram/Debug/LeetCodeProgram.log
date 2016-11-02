@@ -1,0 +1,20 @@
+﻿生成启动时间为 2016/10/25 9:55:27。
+     1>项目“D:\VisualStudio2013\Projects\LeetCodeProgram\LeetCodeProgram\LeetCodeProgram.vcxproj”在节点 2 上(ClCompile 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (LeetCodeProgram.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt LeetCodeQuestion.cpp
+         LeetCodeQuestion.cpp
+     1>d:\visualstudio2013\projects\leetcodeprogram\leetcodeprogram\leetcodequestion.cpp(68): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\visualstudio2013\projects\leetcodeprogram\leetcodeprogram\leetcodequestion.cpp(70): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\visualstudio2013\projects\leetcodeprogram\leetcodeprogram\leetcodequestion.cpp(74): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\visualstudio2013\projects\leetcodeprogram\leetcodeprogram\leetcodequestion.cpp(130): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\visualstudio2013\projects\leetcodeprogram\leetcodeprogram\leetcodequestion.cpp(133): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\visualstudio2013\projects\leetcodeprogram\leetcodeprogram\leetcodequestion.cpp(150): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\visualstudio2013\projects\leetcodeprogram\leetcodeprogram\leetcodequestion.cpp(166): warning C4018: “>=”: 有符号/无符号不匹配
+     1>d:\visualstudio2013\projects\leetcodeprogram\leetcodeprogram\leetcodequestion.cpp(212): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\visualstudio2013\projects\leetcodeprogram\leetcodeprogram\leetcodequestion.cpp(216): warning C4018: “<”: 有符号/无符号不匹配
+     1>已完成生成项目“D:\VisualStudio2013\Projects\LeetCodeProgram\LeetCodeProgram\LeetCodeProgram.vcxproj”(ClCompile 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.85

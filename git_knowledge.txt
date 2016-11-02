@@ -1,0 +1,53 @@
+step1:
+注册github账号
+
+step2:
+安装git
+
+step3:
+设置git
+$ git config --global user.name "Your name"
+$ git config --global user.email "email@email.com"
+
+step4:
+创建SSH Key
+ssh-keygen -t rsa -C "youremail@example.com"
+
+step5:
+登录github 打开AccountSetting,找到SSH Keys 填上任意的title,在key文本框里粘贴上id_rsa.pub
+
+为什么GitHub需要SSH Key呢？因为GitHub需要识别出你推送的提交确实是你推送的，而不是别人冒充的，而Git支持SSH协议，所以，GitHub只要知道了你的公钥，就可以确认只有你自己才能推送。
+当然，GitHub允许你添加多个Key。假定你有若干电脑，你一会儿在公司提交，一会儿在家里提交，只要把每台电脑的Key都添加到GitHub，就可以在每台电脑上往GitHub推送了。
+
+step6:
+创建本地版本库
+mkdir repository_name
+
+step7:
+通过使用git init 把这个仓库变成git可以管理的仓库
+
+step8:
+在本体版本库中创建新的文件
+
+step9:
+添加创建的文件如下：
+git add .
+
+step10:
+提交文件
+git commit -m "description"
+
+step11:
+关联一个远程仓库
+git remote add origin git@github.com:yourname@yougit.git
+
+step12:
+推送到远程仓库的命令
+git push -u origin master
+
+step13:
+克隆远程仓库的命令如下：
+git clone git@github.com:yourname/yougit.git
+
+//pull = fetch+merge
+git pull --rebase origin master 

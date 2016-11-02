@@ -1,0 +1,22 @@
+﻿生成启动时间为 2016/10/30 21:02:02。
+     1>项目“D:\VisualStudio2013\Projects\LeetCodeProgram\LeetCodeString\LeetCodeString.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StringProblem.cpp
+         StringProblem.cpp
+     1>d:\visualstudio2013\projects\leetcodeprogram\leetcodestring\stringproblem.cpp(68): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\visualstudio2013\projects\leetcodeprogram\leetcodestring\stringproblem.cpp(70): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\visualstudio2013\projects\leetcodeprogram\leetcodestring\stringproblem.cpp(74): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\visualstudio2013\projects\leetcodeprogram\leetcodestring\stringproblem.cpp(130): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\visualstudio2013\projects\leetcodeprogram\leetcodestring\stringproblem.cpp(133): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\visualstudio2013\projects\leetcodeprogram\leetcodestring\stringproblem.cpp(150): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\visualstudio2013\projects\leetcodeprogram\leetcodestring\stringproblem.cpp(166): warning C4018: “>=”: 有符号/无符号不匹配
+     1>d:\visualstudio2013\projects\leetcodeprogram\leetcodestring\stringproblem.cpp(212): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\visualstudio2013\projects\leetcodeprogram\leetcodestring\stringproblem.cpp(216): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VisualStudio2013\Projects\LeetCodeProgram\Debug\LeetCodeString.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\VisualStudio2013\Projects\LeetCodeProgram\Debug\LeetCodeString.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VisualStudio2013\Projects\LeetCodeProgram\Debug\LeetCodeString.lib" /MACHINE:X86 Debug\StringProblem.obj
+         LeetCodeString.vcxproj -> D:\VisualStudio2013\Projects\LeetCodeProgram\Debug\LeetCodeString.exe
+     1>已完成生成项目“D:\VisualStudio2013\Projects\LeetCodeProgram\LeetCodeString\LeetCodeString.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.80

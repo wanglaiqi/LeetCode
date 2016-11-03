@@ -51,3 +51,27 @@ git clone git@github.com:yourname/yougit.git
 
 //pull = fetch+merge
 git pull --rebase origin master 
+
+版本回退的操作步骤如下：
+git reset  head^^^^=commit id
+
+分支的创建和合并
+git 里面的主分支是master，Head严格的来说不是指向提交而是指向主分支master 
+
+master才是指向新的提交的， 每次提交的时候master分支都会向前移动一步，
+
+git通过切换指针来切换分支的，
+创建分支的操作如下
+git branch dev
+git checkout dev
+
+//创建加切换分支的命令
+git checkout -b dev
+//查看分支的命令
+git branch
+//切换到主分支的命令
+git checkout master
+//合并分支到主分支上的命令
+git merge dev
+//删除分支的命令
+git banch -d dev

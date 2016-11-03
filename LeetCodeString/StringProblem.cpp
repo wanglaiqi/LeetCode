@@ -227,7 +227,7 @@ bool OurSolution::canConstruct(string ransomNote, string magazine)
 	return true;
 }
 
-//test myfile jhfewruifseuirfeurif
+//teg
 int main()
 {
 	//method1

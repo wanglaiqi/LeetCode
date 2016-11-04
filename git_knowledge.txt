@@ -75,3 +75,15 @@ git checkout master
 git merge dev
 //删除分支的命令
 git banch -d dev
+
+//
+scp 命令
+拷贝文件到服务器的指定目录，进行重命名
+
+//上传文件到服务器的命令是
+rz
+
+/删除文件命令如下
+git rm filename
+
+git commit -m "delete file"

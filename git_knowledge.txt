@@ -87,3 +87,18 @@ rz
 git rm filename
 
 git commit -m "delete file"
+
+//查看和安装更新库的命令如下
+conda list && pip list
+
+pip install scipy
+pip install scipy  --upgrade
+
+conda install scipy
+conda install scipy
+
+//更新所有的库
+conda update --all
+//更新anaconda自身
+conda update anaconda
+

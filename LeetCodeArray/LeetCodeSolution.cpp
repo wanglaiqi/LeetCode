@@ -25,6 +25,9 @@ public:
 	int findDuplicate(vector<int>& nums);
 	//08: the number of binary bits
 	int NumberOf1(int n);
+	//09:
+	int f(int n, int m);
+	int g(int n);
 private:
 
 };
@@ -210,6 +213,30 @@ int ArraySolution::NumberOf1(int n)
 	return count;
 }
 
+int ArraySolution::f(int n, int m)
+{
+	if (m == 0 || m == n)
+	{
+		return 1;
+	}
+	else
+	{
+		return f(n - 1, m) + f(n - 1, m - 1);
+	}
+}
+
+int ArraySolution::g(int n)
+{
+	if (n == 1 || n == 0)
+	{
+		return 1;
+	}
+	else
+	{
+		return n*g(n - 1);
+	}
+}
+
 int main()
 {
 	/*ArraySolution arraySolutuon;
@@ -327,12 +354,25 @@ int main()
 	int duplicateNumber = duplicateSolution.findDuplicate(vec);
 	cout << "the duplicate number is: " << duplicateNumber << endl;*/
 
-	ArraySolution numberOfBits;
+	/*ArraySolution numberOfBits;
 	int number;
 	cout << "please input the number"<<endl;
 	cin >> number;
 	int theNumber = numberOfBits.NumberOf1(number);
-	cout << "the number of 1 is: " << theNumber << endl;
+	cout << "the number of 1 is: " << theNumber << endl;*/
+
+	ArraySolution numberOfCom;
+	int n, m;
+	int result;
+	cout << "please input the data of n && m" << endl;
+	cin >> n >> m;
+	while (n < m)
+	{
+		cout <<"please input data again"<< endl;
+		cin >> n >> m;
+	}
+	result = (numberOfCom.f(n, m) * numberOfCom.g(m))/2;
+	cout << "the combine number is:" << result << endl;
 	system("pause");
 	return 0;
 }

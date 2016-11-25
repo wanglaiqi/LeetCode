@@ -47,10 +47,16 @@ int HashTableSolution::fun(int x, int y)
 int main()
 {
 	HashTableSolution solution;
+	static int a = 1;
+	int k = 3, s[2];
+	s[0] = k;
+	k = s[1] * 10;
+	//char x[12] = { 's', 't', 'r', 'i', 'n','g'};
+	printf("%d",s[1]);
 	//int result = solution.cal(6);
 	//cout << result << endl;
-	int result = solution.fun(12,8);
-	cout << result << endl;
+	//int result = solution.fun(12,8);
+	//cout << result << endl;
 	system("pause");
 	return 0;
 }

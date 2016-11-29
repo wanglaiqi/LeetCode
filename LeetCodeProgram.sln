@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LeetCodeSort", "LeetCodeSor
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LeetCodeHashTable", "LeetCodeHashTable\LeetCodeHashTable.vcxproj", "{5C1FCAF9-9378-4172-8480-5BEF90A833DB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LeetCodeOther", "LeetCodeOther\LeetCodeOther.vcxproj", "{5A766DBE-BFE2-42BF-99C0-DD30B08C2133}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -51,6 +53,10 @@ Global
 		{5C1FCAF9-9378-4172-8480-5BEF90A833DB}.Debug|Win32.Build.0 = Debug|Win32
 		{5C1FCAF9-9378-4172-8480-5BEF90A833DB}.Release|Win32.ActiveCfg = Release|Win32
 		{5C1FCAF9-9378-4172-8480-5BEF90A833DB}.Release|Win32.Build.0 = Release|Win32
+		{5A766DBE-BFE2-42BF-99C0-DD30B08C2133}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5A766DBE-BFE2-42BF-99C0-DD30B08C2133}.Debug|Win32.Build.0 = Debug|Win32
+		{5A766DBE-BFE2-42BF-99C0-DD30B08C2133}.Release|Win32.ActiveCfg = Release|Win32
+		{5A766DBE-BFE2-42BF-99C0-DD30B08C2133}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

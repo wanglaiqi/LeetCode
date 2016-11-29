@@ -11,6 +11,8 @@ public:
 	vector<int> intersection(vector<int>& nums1, vector<int>& nums2);
 	//02:intersection of two array II
 	vector<int> intersect(vector<int>& nums1, vector<int>& nums2);
+	//03:quick sort
+	void  quick_sort(int vec[], int left, int right);
 
 private:
 
@@ -88,6 +90,40 @@ vector<int> SortSolution::intersect(vector<int>& nums1, vector<int>& nums2)
 	return result;
 }
 
+void SortSolution::quick_sort(int vec[], int left, int right)
+{
+	if (left < right)
+	{
+		int i = left;
+		int j = right;
+		int x = vec[i];
+		while (i<j)
+		{
+			while (i<j&&vec[j]>=x)
+			{
+				j--;
+			}
+			if (i < j)
+			{
+				vec[i] = vec[j];
+				i++;
+			}
+			while (i<j&&vec[i]<x)
+			{
+				i++;
+			}
+			if (i < j)
+			{
+				vec[j] = vec[i];
+				j--;
+			}
+		}
+		vec[i] = x;
+		quick_sort(vec, left, i-1);
+		quick_sort(vec, i+1, right);
+	}
+}
+
 int main()
 {
 	/*SortSolution intersectionSolution;
@@ -100,13 +136,23 @@ int main()
 	}
 	cout << endl;*/
 
-	SortSolution intersectionSolutionII;
+	/*SortSolution intersectionSolutionII;
 	vector<int> vec1 = {1,2,2,1,3,5};
 	vector<int> vec2 = {2,2,3};
 	vector<int> result = intersectionSolutionII.intersect(vec1, vec2);
 	for (int i = 0; i < result.size(); i++)
 	{
 		cout << result[i] << " ";
+	}
+	cout << endl;*/
+
+	SortSolution quickSolution;
+	int vect[] = { 5, 6, 2, 1, 3, 9,4,10 };
+	quickSolution.quick_sort(vect,0,7);
+	cout <<"after sort the vect"<< endl;
+	for (int i = 0; i < 8; i++)
+	{
+		cout << vect[i] << " ";
 	}
 	cout << endl;
 	system("pause");
